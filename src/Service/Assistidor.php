@@ -9,9 +9,7 @@ class Assistidor
 {
     public function assisteCurso(Curso $curso)
     {
-        foreach ($curso->recuperarVideos() as $video) {
-            $video->assistir();
-        }
+        $curso->assistir();
     }
 
     public function assisteAluraMais(AluraMais $aluraMais)

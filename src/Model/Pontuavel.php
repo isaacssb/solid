@@ -1,7 +1,8 @@
 <?php
 namespace Alura\Solid\Model;
 
-class Pontuavel
+interface Pontuavel
 {
   public function recuperarPontuacao(): int;
+
 }
